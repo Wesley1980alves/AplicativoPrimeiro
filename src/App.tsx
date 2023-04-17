@@ -7,10 +7,9 @@ import UsuarioLogado from "./componentes/relacao/UsuarioLogado";
 import Familia from "./componentes/relacao/Familia";
 import Membro from "./componentes/relacao/Membro";
 import Padrao from "./estilo/Padrao";
-import { geral } from "./estilo";
-import { Dimensions } from "react-native";
 import Botao from "./componentes/Botao";
 import Contador from "./componentes/Contador";
+import DigiteSeuNome from "./componentes/relacao/DigiteSeuNome";
 
 
 
@@ -41,11 +40,11 @@ export default class App extends Component{
           <Membro nome="Meu Maior Amor"/>
           <Membro nome="Meu Filho"/>
           <Membro nome="Wyllyan Guilherme "/>        
-    </Familia>*/}
-            <Botao/>
-            <Contador valorInicial={55}/>
-
-
+    </Familia>
+    <Botao/>
+    <Contador valorInicial={55}/>*/}
+    <DigiteSeuNome/>
+            
 
       </View>
     );      
@@ -55,7 +54,6 @@ export default class App extends Component{
   const estilos = StyleSheet.create({
     container:{
       flex: 1,
-      backgroundColor:'red',
       justifyContent: 'space-evenly',
       alignItems: 'center',
       fontWeight:'bold',

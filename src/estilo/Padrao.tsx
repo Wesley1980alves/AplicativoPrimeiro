@@ -7,7 +7,9 @@ export default StyleSheet.create({
         marginVertical: 5,
         borderRadius: 10,
         borderColor: 'red',
-        fontSize: 18,
+        fontSize: 24,
+        fontWeight:'bold',
+        borderWidth:1,
         
     },
     txtG:{
@@ -16,5 +18,13 @@ export default StyleSheet.create({
         
         
 
-    }
+    },
+    input:{
+        height:49,
+        margin:12,
+        borderWidth :5,
+        borderColor: '#fff',
+        backgroundColor: '#00BCD4',
+    },
+
 })
