@@ -17,14 +17,17 @@ export default StyleSheet.create({
         backgroundColor:'red',
         
         
+        
 
     },
     input:{
-        height:49,
-        margin:12,
-        borderWidth :5,
+        height:50,
+        margin:20,
+        borderWidth :2,
         borderColor: '#fff',
         backgroundColor: '#00BCD4',
+        backfaceVisibility:'visible',
+    
     },
 
 })

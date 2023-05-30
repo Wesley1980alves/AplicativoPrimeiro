@@ -19,7 +19,4 @@ export default(props:any)=>{
         </>
     )
 
-
-    
-
 }

@@ -2,7 +2,7 @@ import React from "react";
 import {Button} from "react-native";
 
 
-export default(porps:any)=>{
+export default(props:any)=>{
 function executar(){
     console.warn('Botao acionado!')
 
@@ -20,6 +20,7 @@ return(
         console.warn("Exec. #2")
     }}
     />
+
     <Button 
     title="Executar #3"
     onPress={()=>console.warn("Exec.#3")}
