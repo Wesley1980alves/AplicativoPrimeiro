@@ -26,6 +26,17 @@ const estilo=StyleSheet.create({
         width:(Dimensions.get('window').width/4) * 3,
     },
 
+
+    calculadora:{
+    flex:1,
+  
+    },
+    buttons:{
+    flexDirection:'row',
+    flexWrap:'wrap',
+
+}
+
 })
 
 export default props=>{

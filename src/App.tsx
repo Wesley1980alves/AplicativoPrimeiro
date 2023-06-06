@@ -13,51 +13,18 @@ import DigiteSeuNome from "./componentes/relacao/DigiteSeuNome";
 import MostraFrase from "./componentes/relacao/MostraFrase";
 import Dimensoesfixas from "./componentes/Dimensoesfixas";
 import Mega from "./componentes/Mega";
-import Button from "./componentes/calculadora/Button";
-import Display from "./componentes/calculadora/Display";
+import Calculadora from "./componentes/calculadora/Calculadora";
 
 
 export default class App extends Component{
-  state={
-    displayValue:'0',
-  }
-  clearDisplay=()=>{
-    this.setState({displayValue:'0'})
 
-  }
-  setDigite=(digito:any)=>{
-    this.setState({displayValue:digito})
-  }
-  setOperacao=(op:any)=>{
-
-  }
   render() {
     return (
       
-      <View style={estilos.calculadora}>
-        <Display value={this.state.displayValue}/>
-        <View style={estilos.buttons}>
-          <Button label='AC' triple onClick={()=>this.clearDisplay()} />
-          <Button label='/' op  onClick={this.setOperacao}/>
-          <Button label='7' onClick={this. setDigite}/>
-          <Button label='8' onClick={this.setDigite}/>
-          <Button label='9' onClick={this.setDigite}/>
-          <Button label='*' op onClick={this.setOperacao}/>
-          <Button label='4'onClick={this.setDigite}/>
-          <Button label='5'onClick={this.setDigite}/>
-          <Button label='6'onClick={this.setDigite}/>
-          <Button label='-' op onClick={this.setOperacao}/>
-          <Button label='1'onClick={this.setDigite}/>
-          <Button label='2'onClick={this.setDigite}/>
-          <Button label='3'onClick={this.setDigite}/>
-          <Button label='+' op onClick={this.setOperacao}/>
-          <Button label='0'onClick={this.setDigite}/>
-          <Button label='.'onClick={this.setDigite}/>
-          <Button label='='onClick={this.setOperacao}/>
-
-        </View>
-
+      <View style={estilos.container}>
+        <Calculadora/>
   
+
     
       </View>
     );      
