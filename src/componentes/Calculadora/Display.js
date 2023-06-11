@@ -6,12 +6,12 @@ const estilo = StyleSheet.create({
         flex: 1,
         padding: 20,
         justifyContent: 'center',
-        backgroundColor: '#7a7c7d',
+        backgroundColor: '#7fffd4',
         alignItems: 'flex-end',
     },
     displayValue: {
-        fontSize: 45,
-        color: '#fff',
+        fontSize: 50,
+        color: '#000',
     }
 })
 

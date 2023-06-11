@@ -4,18 +4,18 @@ import { StyleSheet, Text, Dimensions,
 
 const estilo = StyleSheet.create({
     button:{
-        fontSize: 41,
+        fontSize: 60,
         height: Dimensions.get('window').height / 7,
         width: Dimensions.get('window').width /4,
         padding: 20,
-        backgroundColor: '#f0f0f0',
+        backgroundColor: '#7cfc00',
         textAlign: 'center',
         borderWidth: 1,
         borderColor: '#000'
     },
     buttonOp:{
         color: '#fff',
-        backgroundColor: '#fa8231',
+        backgroundColor: '#000',
     },
     buttonDouble:{
         width: (Dimensions.get('window').width / 4) * 2,
