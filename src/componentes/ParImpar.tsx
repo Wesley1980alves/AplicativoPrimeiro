@@ -6,9 +6,10 @@ function getParImpar(num: any){
      
     const resultado = num % 2 == 0 ? 'PAR' : 'IMPAR'
 
-    return <Text style={Padrao.text}>{resultado}</Text>
+    return <Text style={Padrao.ex}>{resultado}</Text>
 
 }
+
 
 export default (props: any) => (
     <>

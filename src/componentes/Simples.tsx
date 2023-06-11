@@ -4,5 +4,5 @@ import Padrao  from "../estilo/Padrao";
 
 
 export default (props: any) => 
-   <Text style={Padrao.text}>Arrow 1: {props.texto}</Text>
+   <Text style={Padrao.ex}>Arrow 1: {props.texto}</Text>
    
