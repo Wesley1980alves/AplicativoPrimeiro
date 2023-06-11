@@ -4,6 +4,9 @@ import Padrao  from '../../estilo/Padrao';
 import MegaNumeros from './MegaNumeros';
 
 export default class Mega extends Component {
+    static navigationOptions={
+        drawerLabel:'Mega',
+    }
 
     state = {
         qtdeNumeros: this.props.qtdeNumeros,

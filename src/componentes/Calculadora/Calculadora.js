@@ -13,6 +13,10 @@ const initialState = {
 }
 
 export default class Calculadora extends Component {
+    static navigationOptions={
+        DrawerLabel:'Calculadora',
+
+    }
 
     state = {...initialState}
     

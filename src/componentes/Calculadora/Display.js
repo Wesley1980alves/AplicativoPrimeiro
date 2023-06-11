@@ -1,5 +1,5 @@
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { ImageBackground, StyleSheet, Text, View } from "react-native";
 
 const estilo = StyleSheet.create({
     display: {
@@ -17,10 +17,13 @@ const estilo = StyleSheet.create({
 
 export default props => {
     return (
+        
         <View style={estilo.display}>
+        
             <Text style={estilo.displayValue} numberOfLines={1}>
                 {props.value}
             </Text>
         </View>
+        
     )
 }

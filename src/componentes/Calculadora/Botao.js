@@ -4,11 +4,11 @@ import { StyleSheet, Text, Dimensions,
 
 const estilo = StyleSheet.create({
     button:{
-        fontSize: 60,
+        fontSize: 50,
         height: Dimensions.get('window').height / 7,
         width: Dimensions.get('window').width /4,
         padding: 20,
-        backgroundColor: '#7cfc00',
+        backgroundColor: '#000',
         textAlign: 'center',
         borderWidth: 1,
         borderColor: '#000'
